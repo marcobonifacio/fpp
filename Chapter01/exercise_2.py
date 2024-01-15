@@ -3,7 +3,6 @@ Convert step-wise computation to functional code
 """
 import doctest
 from math import cos, hypot, radians, sqrt, tau
-from typing import Tuple
 
 def imperative_computation(
     lat_1: float, lat_2: float, lon_1: float, lon_2: float, 
